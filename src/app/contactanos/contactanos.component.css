@@ -5,14 +5,13 @@
   
   .contacto-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
   }
   
   .contacto-info {
-    width: 40%;
+    margin-bottom: 50px;
   }
   
   .contacto-info h3 {
@@ -53,7 +52,7 @@
   }
   
   .formulario {
-    width: 55%;
+    margin-top: 50px;
   }
   
   .formulario h3 {
@@ -65,68 +64,67 @@
     margin-bottom: 20px;
   }
   
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
   .form-group input,
   .form-group textarea {
     width: 100%;
-    padding: 10
-px;
-font-size: 16px;
-border-radius: 5px;
-border: none;
-background-color: #f5f5f5;
-color: #555;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-outline: none;
-background-color: #fff;
-}
-
-.form-group label {
-display: block;
-margin-bottom: 5px;
-font-size: 18px;
-font-weight: bold;
-color: #333;
-}
-
-.form-group textarea {
-resize: none;
-height: 120px;
-}
-
-.btn-submit {
-display: inline-block;
-background-color: #4CAF50;
-color: #fff;
-font-size: 16px;
-border: none;
-border-radius: 5px;
-padding: 10px 20px;
-cursor: pointer;
-}
-
-.btn-submit:hover {
-background-color: #3e8e41;
-}
-
-.btn-enviar {
-    background-color: #4CAF50; /* Color de fondo */
-    border: none; /* Sin borde */
-    color: white; /* Color del texto */
-    padding: 15px 32px; /* Tamaño del botón */
-    text-align: center; /* Alinear texto al centro */
-    text-decoration: none; /* Sin subrayado */
-    display: inline-block; /* Mostrar como bloque */
-    font-size: 16px; /* Tamaño del texto */
-    margin: 4px 2px; /* Margen */
-    cursor: pointer; /* Cursor tipo mano */
-    border-radius: 50px; /* Forma redondeada */
-    transition-duration: 0.4s; /* Duración de la transición */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f5f5;
+    color: #555;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
-  /* Al pasar el cursor sobre el botón */
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    background-color: #fff;
+  }
+  
+  .form-group textarea {
+    resize: none;
+    height: 120px;
+  }
+  
+  .btn-submit {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn-enviar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+  }
+  
   .btn-enviar:hover {
     background-color: #3e8e41;
   }

@@ -1,92 +1,89 @@
-h1{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-left: 150px;
+h1 {
+  padding: 20px 10px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-ul{
-    margin-left: 140px;
-    margin-right: 140px;
-    border:6px solid black;
-    padding: 30px;
-    background-color:rosybrown;
+ul {
+  margin: 0;
+  border: 6px solid black;
+  padding: 30px;
+  background-color: rosybrown;
 }
 
-li{
-    text-align: left;
-    padding-top: 30px;
-    
+li {
+  text-align: left;
+  padding-top: 20px;
 }
 
 form {
-    background-color:rosybrown ;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    max-width: 500px;
-    margin: auto;
-  }
-  
-  h2 {
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 16px;
-  }
-  
-  input[type="text"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    font-size: 16px;
-  }
-  
-  select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    font-size: 16px;
-  }
-  
-  button[type="submit"] {
-    background-color: #6C63FF;
-    color: #fff;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #dae07d;
-  }
-  
-  .error {
-    color: #FF0000;
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
+  background-color: rosybrown;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  margin: 0 auto;
+}
 
-  img{
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    height: auto;
-    margin-top: 40px;
-    margin-bottom: 30px; /* agrega un margen inferior de 20 píxeles a la imagen */
-  }
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-  
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #6C63FF;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #dae07d;
+}
+
+.error {
+  color: #FF0000;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
   
