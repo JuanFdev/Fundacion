@@ -1,0 +1,24 @@
+.imagen-centrada {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px; /* agrega un margen inferior de 20 píxeles a la imagen */
+}
+  
+
+  p {
+    display: block;
+    font-size: 1.4em; /* aumenta el tamaño del texto a 1.2 veces el tamaño base */
+    text-align: center; /* centra el texto horizontalmente */
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color:rosybrown;
+    
+    
+  }
+  

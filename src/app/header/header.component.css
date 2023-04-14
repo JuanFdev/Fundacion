@@ -1,0 +1,39 @@
+.bg-micolor {
+    background-color:rosybrown;
+    
+  }
+
+.navbar-brand img {
+    border-radius: 50%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    
+  }
+
+  .navbar-nav {
+    border-radius: 50%;
+    margin-left: 700px;
+    padding-right: 190px;
+    background-color:white;
+  }
+
+  .container-fluid {
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 30px;
+    background-color: white;
+  } 
+
+  .navbar-nav .nav-link {
+    border-radius: 50%;
+    padding-top: 80px;
+  }
+
+  .navbar-nav li a {
+    font-size: 23px; /* Aquí puedes ajustar el tamaño de la letra de los enlaces según tus necesidades */
+    font-weight:380;
+  }
+
+

@@ -1,0 +1,58 @@
+#apadrinamiento {
+    background-color: rosybrown;
+    padding: 50px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+  
+  .plan {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .plan img {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  
+  .plan h3 {
+    font-size: 24px;
+    color: rosybrown;
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .btn-apadrinar,
+.btn-donar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffbd00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-apadrinar:hover,
+.btn-donar:hover {
+  background-color: #ffaf00;
+}
+
+  

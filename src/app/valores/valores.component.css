@@ -1,0 +1,39 @@
+.imagen-centrada {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px; /* agrega un margen inferior de 20 píxeles a la imagen */
+}
+
+
+.custom-card {
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px; /* agrega un margen inferior de 20 píxeles a la imagen */
+    background-image: url(../../assets/img/huellitas2.JPG);
+  }
+
+  .row{
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  .img2 {
+    border-radius: 50%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  

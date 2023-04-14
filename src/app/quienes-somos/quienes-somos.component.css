@@ -1,0 +1,44 @@
+h1 {
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    margin-left: 150px;
+    text-align: left;
+}
+
+p{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-left: 148px;
+    margin-right: 150px;
+}
+
+.p2{
+    padding-top: 30px;
+    text-align: left;
+    padding-bottom: 40px;
+    margin-left: 148px;
+    margin-right: 150px;
+
+}
+
+ul{
+    margin-left: 148px;
+    padding-top: 30px;
+    
+    
+
+}
+
+.imagen-centrada {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px; /* agrega un margen inferior de 20 píxeles a la imagen */
+}
